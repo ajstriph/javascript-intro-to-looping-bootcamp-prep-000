@@ -8,10 +8,10 @@ var forLoop = function (){
   }
 }
 }
-let number = 25;
-var whileLoop = function (number){
-  while (number > 0){
-    console.log(--number);
-    return "done";
+var n = 72;
+var whileLoop = function (n){
+  while (n > 0){
+    console.log(n--);
   }
+  return "done";
 }
