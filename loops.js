@@ -23,6 +23,6 @@ var doWhileLoop = function (array){
 }
  do {
    //something//
-  
+
  } while (array.length > 0 && maybeTrue());
 }
