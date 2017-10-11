@@ -20,9 +20,10 @@ function whileLoop(n){
 var doWhileLoop = function (array){
   function maybeTrue() {
   return Math.random() >= 0.5
-}
+  }
  do {
-   //something//
+   array.shift;
 
  } while (array.length > 0 && maybeTrue());
+ return array;
 }
