@@ -22,7 +22,7 @@ var doWhileLoop = function (array){
   return Math.random() >= 0.5
   }
  do {
-   array.shift;
+   array.shift+1;
 
  } while (array.length > 0 && maybeTrue());
  return array;
